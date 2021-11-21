@@ -1,0 +1,16 @@
+# Import cache
+.import/
+
+# Binaries
+bin/
+build/
+lib/
+
+# Mono
+.mono/
+
+# Addons
+addons/
+
+# Jetbrains
+.idea/

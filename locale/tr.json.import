@@ -1,0 +1,13 @@
+[remap]
+
+importer="json_translations_importer"
+type="Translation"
+path="res://.import/tr.json-e42a7c2f5a387ad15f1d8f1606e36d15.translation"
+
+[deps]
+
+source_file="res://locale/tr.json"
+dest_files=[ "res://.import/tr.json-e42a7c2f5a387ad15f1d8f1606e36d15.translation" ]
+
+[params]
+

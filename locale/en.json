@@ -1,0 +1,7 @@
+{
+    "locale": "en",
+    "messages": {
+        "HELLOWORLD": "Hello world!",
+        "SECONDTEXT": "This is the second text."
+    }
+}
