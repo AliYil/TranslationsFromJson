@@ -9,8 +9,5 @@ lib/
 # Mono
 .mono/
 
-# Addons
-addons/
-
 # Jetbrains
 .idea/
