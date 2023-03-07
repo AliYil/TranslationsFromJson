@@ -1,23 +1,17 @@
-[gd_scene format=2]
+[gd_scene format=3 uid="uid://ck55b4voyg2y7"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="Label" type="Label" parent="."]
-margin_left = 47.0
-margin_top = 44.0
-margin_right = 138.0
-margin_bottom = 58.0
+offset_left = 47.0
+offset_top = 44.0
+offset_right = 138.0
+offset_bottom = 58.0
 text = "HELLOWORLD"
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Label2" type="Label" parent="."]
-margin_left = 47.0
-margin_top = 83.0
-margin_right = 138.0
-margin_bottom = 97.0
+offset_left = 47.0
+offset_top = 83.0
+offset_right = 138.0
+offset_bottom = 97.0
 text = "SECONDTEXT"
-__meta__ = {
-"_edit_use_anchors_": false
-}
