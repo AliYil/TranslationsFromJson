@@ -1,12 +1,12 @@
-# Translations From JSON
+# Translations From JSON for Godot 3.x
 
 This is a Godot plugin for importing JSON files for translations.
 
 ## Usage
 
-1. [Install the plugin into your project](https://docs.godotengine.org/en/stable/tutorials/plugins/editor/installing_plugins.html)
-1. Add JSON translations files into your project in .json format.
-1. Add the file to translations using Project Settings > Localization > Add *(Select "All files (\*)" to see the JSON file)*
+1. [Install the plugin into your project](https://docs.godotengine.org/en/3.5/tutorials/plugins/editor/installing_plugins.html)
+2. Add JSON translations files into your project in .json format.
+3. Add the file to translations using Project Settings > Localization > Add *(Select "All files (\*)" to see the JSON file)*
 
 ## JSON Format
 
