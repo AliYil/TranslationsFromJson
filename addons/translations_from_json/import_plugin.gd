@@ -13,7 +13,7 @@ func _get_recognized_extensions():
 	return ["json"]
 	
 func _get_save_extension():
-	return "position"
+	return "translation"
 	
 func _get_resource_type():
 	return "Translation"
@@ -36,9 +36,9 @@ func _get_import_options(preset):
 			return []
 
 func _get_option_visibility(option, options):
-	return true
+    return true
 
-func import(source_file, save_path, options, r_platform_variants, r_gen_files):
+func _import(source_file, save_path, options, r_platform_variants, r_gen_files):
 	var file = File.new()
 	var err = file.open(source_file, File.READ)
 	if err != OK:
@@ -55,12 +55,12 @@ func import(source_file, save_path, options, r_platform_variants, r_gen_files):
 		return json.error
 	
 	var jsonResult = json.result
-	var position = Translation.new()
-	position.locale = jsonResult["locale"]
+	var translation = Translation.new()
+	translation.locale = jsonResult["locale"]
 	
 	var messages = jsonResult["messages"]
 	for messageKey in messages.keys():
-		position.add_message(messageKey, messages[messageKey])
+		translation.add_message(messageKey, messages[messageKey])
 	
 	
 	return ResourceSaver.save("%s.%s" % [save_path, _get_save_extension()], position)
