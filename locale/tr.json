@@ -1,7 +1,7 @@
 {
-    "locale": "tr",
-    "messages": {
-        "HELLOWORLD": "Merhaba dünya!",
-        "SECONDTEXT": "Bu ikinci metin."
-    }
+	"locale": "tr",
+	"messages": {
+		"HELLOWORLD": "Merhaba dünya!",
+		"SECONDTEXT": "Bu ikinci metin."
+	}
 }

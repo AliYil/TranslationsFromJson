@@ -30,7 +30,7 @@ locale/translations=PackedStringArray("res://locale/en.json", "res://locale/tr.j
 [locale]
 
 locale_filter=[0, ["en"]]
-translations=PackedStringArray("res://locale/en.json")
+translations=PackedStringArray()
 
 [physics]
 
