@@ -1,6 +1,8 @@
 # Translations From JSON for Godot 4.x
 
-This is a Godot plugin for importing JSON files for translations.
+A Godot plugin for importing JSON files for translations.
+
+This is the Godot 4.x version of the plugin. If you want to use it on 3.x, head over to the [3.x branch](https://github.com/AliYil/TranslationsFromJson/tree/3.x).
 
 ## Usage
 
